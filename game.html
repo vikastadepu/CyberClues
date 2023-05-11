@@ -1,0 +1,175 @@
+<html>
+  <head>
+
+    <title>219 Game</title>
+    <link rel ="stylesheet" href="game.css">
+    
+
+  </head>
+
+
+  <body>
+    <div  style="padding: 3px;">
+      
+      <h1 style="text-align: center;"> CYBERCLUES</h3>
+    </div>
+
+    <div class="container crosswordDisplay">
+  
+  <div class="row">
+    <div class="btn btn-default" style = "background-color: rgb(61, 255, 47); padding: 8px; border-radius: 2px;" id="btnCreate">SHOW ANSWERS</div>
+    <div class="btn btn-default" style = "background-color: e22e12; padding: 8px; border-radius: 2px;" id="btnPlay">Play</div>
+  </div>
+  <div class="row">
+    <div class="btn btn-primary" style = "background-color: 00a2ed; padding: 8px; border-radius: 2px;" id="btnReset">RESET</div>
+     <div class="btn btn-secondary" style = "background-color: yellow; padding: 8px; border-radius: 2px;" id="btnCheck">CHECK Answers</div>
+  </div>
+
+  <div class="center crossword" id="crossword"></div>
+  
+<div class="btn" id="btnGen">Generate</div>
+  
+  
+  <div class="col-lg-2">
+  <div class="clueBlock" id="cluesAcross">
+    <div class="clueDirection" id="directionAcross">ACROSS</div>
+
+    <div class="line">
+      <input class="word" type="text" value="KEYLOGGER" />
+      <span class="lineNum"></span>
+      <input class="clue" value="A type of malware that can steal personal information, such as passwords and credit card numbers. (6)" />
+    </div>
+
+    <div class="container" style="height: 100vh;">
+      <!-- Your content goes here -->
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="DDOS" />
+      <span class="lineNum"></span>
+      <input class="clue" value="Cyber attack which locks up a website with requests (4)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Trojan" />
+      <span class="lineNum"></span>
+      <input class="clue" value="Malware that downloads onto a computer disguised as a legitimate program (6)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Spoofing"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Someone changes IP address to look legitimate (8)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Botnet"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="A network of infected computers (6)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Ransomware"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="A form of malware that deliberately prevents you from accessing files on your computer until they are decrypted, usually at a cost (10)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Spyware"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Software secretly watches computer activity (7)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Smishing"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Cyber attack comes via text message (8)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="MD5"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="___ algorithm is a widely used as hash function producing a 128-bit hash value (3)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Secureshell"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="It is a cryptographic network protocol for operating network services securely over an unsecured network (12)" />
+    </div>
+  </div>
+  <div class="col-lg-8">
+  <div class="clueBlock" id="cluesDown">
+    <div class="clueDirection" id="directionDown">DOWN</div>
+    <div class="line">
+      <input class="word" type="text" value="SHA1"/>
+      <span class="lineNum"></span>
+      <input class="clue" value=" __ is a cryptographic hash function that takes an input and produces a 160-bit (20-byte) hash (4)"/>
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Https"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="____ is a protocol for secure communication over a computer network on the Internet (5)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="Biometric"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value= " _____ verification is the one most relevant to HCI (9)" />
+    </div>
+    
+	<div class="line">
+      <input class="word" type="text" value="phising"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="When a malicious party sends a fraudulent email disguised as a legitimate email, often purporting to be from a trusted source (7)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="Tor"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="___ is an open-source software combined with a global network of servers that helps people stay anonymous online (3)" />
+    </div>
+    
+      <div class="line">
+      <input class="word" type="text" value="Dark"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Web that is not indexed by web search engines (4) " />
+    </div>
+    
+        <div class="line">
+      <input class="word" type="text" value="Asymmetric"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="__ is a common encryption technique which uses prime-numbers to generate the keys (10)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="Authentication"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="____ identifying a user’s identity (14)" />
+    </div>
+    
+	<div class="line">
+      <input class="word" type="text" value="Worm"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Malware that can reproduce itself (4)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="Antivirus"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Software that protects computers from virus-related harm (9)" />
+    </div>  
+  </div>
+  </div>
+
+  </div>
+</div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="game.js"></script>
+</html>
+
+
+
